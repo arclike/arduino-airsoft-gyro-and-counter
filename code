@@ -72,12 +72,9 @@ if((millis()-timer)>10)
   {                                           
     display.clearDisplay();                       
     display.setCursor(0,0);                         
-    display.print("X= " + String(x) );
 
- 
-display.print("Y= " + String(y));
- 
-display.println("Z= " + String(z));
+    display.println("Z= " + String(z));
+    display.println("shots fired= " + String(count_value));
 
 
     display.display();                            
